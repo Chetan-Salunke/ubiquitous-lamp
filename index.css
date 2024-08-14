@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* <!-- Navbar --> */
+nav{
+    background-color: #151823;
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+    padding-top: 19px;
+    padding-bottom: 19px    ;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 8px;
+}
+li{
+    padding: 8px;
+}
+/* <!-- First Page --> */
+/* <!-- Services --> */
+/* <!-- Pricing Plan --> */
+/* <!-- Clients --> */
+/* <!-- Portfolio --> */
+/* <!-- Technologies --> */
+/* <!-- Requirement Form --> */
+/* <!-- Footer --> */
