@@ -1,24 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
     <title>Next Gen Web</title>
 </head>
+
 <body>
-    <!-- Navbar -->  <!--Home--AboutUs--Services--Clients--Portfolio--Contact-->
-     <nav>
-        <ul>
-            <a href="">Next Gen Web </a>
-            <li>Home</li>
-            <li>Services</li>
-            <li>Clients</li>
-            <li>Portfolio</li>
-            <li>AboutUs</li>
-            <li>Contact</li>
-        </ul>
+    <!-- Nav --> <!--Phone--Email--Follow us-->
+     <nav class="navvbar">
+        <div class="navv">
+            <ul class="navv-links">
+                <a href=""><li>Home</li></a>
+                <a href=""><li>Services</li></a>
+            </ul>
+            <ul class="navv-links">
+                <a href=""><li>Home</li></a>
+                <a href=""><li>Services</li></a>
+            </ul>
+        </div>
      </nav>
+     <!-- Navbar --> <!--Home--AboutUs--Services--Clients--Portfolio--Contact-->
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><img src="./media/logo.png" alt=""></div>
+            <div class="menu-btn" onclick="toggleMenu()">&#9776;</div>
+            <div class="close-btn" onclick="toggleMenu()">&#10005;</div>
+            <ul class="nav-links">
+                <a href=""><li>Home</li></a>
+                <a href=""><li>Services</li></a>
+                <a href=""><li>Clients</li></a>
+                <a href=""><li>Portfolio</li></a>
+                <a href=""><li>AboutUs</li></a>
+                <button class="navbtn"><a href="">Contact</a></button>
+            </ul>
+        </div>
+    </nav>
+    <section class="firstpage">
+        <div class="container">
+            <img src="./media/crea-tive.svg" alt="">
+        </div>
+    </section>
     <!-- First Page -->
     <!-- Services -->
     <!-- Pricing Plan -->
@@ -27,5 +55,7 @@
     <!-- Technologies -->
     <!-- Requirement Form -->
     <!-- Footer -->
+     <script src="index.js"></script>
 </body>
+
 </html>

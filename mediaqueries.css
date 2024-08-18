@@ -1,0 +1,77 @@
+/* Tablets and medium-sized screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .navdiv {
+        flex-direction: column;
+    }
+
+    .logo img {
+        height: 80px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    li {
+        padding: 10px 0;
+    }
+
+    .navdiv a {
+        font-size: 16px;
+    }
+}
+
+/* Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .navdiv {
+        justify-content: space-between;
+        padding: 10px 0;
+        position: relative;
+    }
+
+    .logo img {
+        height: 60px;
+    }
+
+    ul {
+        display: none;  /* Initially hide the menu */
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #151823;
+    }
+
+    li {
+        padding: 8px 0;
+    }
+
+    .navdiv a {
+        font-size: 14px;
+    }
+
+    .menu-btn {
+        display: block;  /* Show menu button on mobile */
+    }
+
+    .close-btn {
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;  /* Show the menu when the button is clicked */
+    }
+
+    .menu-btn.hidden {
+        display: none; /* Hide the menu button when menu is active */
+    }
+
+    .close-btn.active {
+        display: block; /* Show the close button when the menu is active */
+    }
+}

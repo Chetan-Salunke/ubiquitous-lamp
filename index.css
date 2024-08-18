@@ -1,28 +1,66 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Catamaran", sans-serif;
+}
+/* <!-- Nav --> <!--Phone--Email--Follow us--> */
+.navvbar{
+    background-color: #21242e;
 }
 /* <!-- Navbar --> */
-nav{
+.navbar{
     background-color: #151823;
     color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.20);
-    padding-top: 19px;
-    padding-bottom: 19px    ;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{  
+    height: 100px;
 }
 ul{
     list-style: none;
     display: flex;
 }
-a{
-    text-decoration: none;
-    color: #FFFFFF;
-    padding: 8px;
-}
 li{
-    padding: 8px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.navdiv a{
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+.menu-btn,
+.close-btn{
+    display: none;
+    font-size: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.navbtn{
+    background-color: #151823;
+    border-radius: 50px 50px 50px 50px;
+    border: 2px solid #f35444;
+    width: 130px;
+}
+.navbtn:hover{
+    background-color: #f35444;
 }
 /* <!-- First Page --> */
+.firstpage{
+    background-color: #151823;
+}
+.container img{
+    height: 100%;
+    width: 100%;
+}
 /* <!-- Services --> */
 /* <!-- Pricing Plan --> */
 /* <!-- Clients --> */
