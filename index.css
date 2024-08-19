@@ -112,12 +112,11 @@ li{
     padding-top: 15%;
     display: flex;
     height: 40%;
-    /* justify-content: center;  */
 }
 .container img{
     height: 600px;
     position: relative;
-    right: -25%; /* Adjust this value to control how much of the image is outside */
+    right: -25%; 
 }
 .text h2{
     font-size: 62px;
@@ -133,7 +132,7 @@ li{
     display: flex;
     justify-content: flex-end;
     position: relative;
-    overflow: hidden; /* Ensures no unwanted scrollbars appear */
+    overflow: hidden; 
 }
 .text {
     padding-left: 160px;
@@ -168,3 +167,34 @@ li{
 /* <!-- Technologies --> */
 /* <!-- Requirement Form --> */
 /* <!-- Footer --> */
+.footer{
+    height: 60px;
+    background-color: #21242e;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #7e8399;
+}
+.con1{
+    display: flex;
+    align-items: center;
+}
+.con1 a{
+    text-decoration: none;
+    color: #f35444;
+}
+.con2{
+    display: flex;
+    align-items: center;
+}
+.con2 a{
+    display: flex;
+}
+.con2 a img {
+    height: 20px;
+    margin-right: 20px;
+    transition: all 0.2s ease;
+}
+.con2 a img:hover{
+    filter: invert(48%) sepia(88%) saturate(3082%) hue-rotate(336deg) brightness(92%) contrast(104%);
+}
