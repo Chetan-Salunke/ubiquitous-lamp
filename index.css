@@ -5,7 +5,54 @@
 }
 /* <!-- Nav --> <!--Phone--Email--Follow us--> */
 .navvbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: #21242e;
+    padding-bottom: 3px;
+    height: 60px;
+}
+.navv{
+    display: flex;
+    justify-content: space-around;
+}
+.navv-links a{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color:#FFFFFF
+}
+.navdot{
+    width: 5px;
+    height: 5px;
+}
+.navv{
+    display: flex;
+}
+.navcon{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.navcon2{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.navcon1{
+    display: flex;
+}
+.navcon2 a{
+    display: flex;
+    align-items: center;
+}
+.navcon2 a img{
+    height: 20px;
+    margin-right: 20px;
+    transition: all 0.2s ease;
+}
+.navcon2 a img:hover{
+    filter: invert(48%) sepia(88%) saturate(3082%) hue-rotate(336deg) brightness(92%) contrast(104%);
 }
 /* <!-- Navbar --> */
 .navbar{
@@ -52,15 +99,68 @@ li{
 }
 .navbtn:hover{
     background-color: #f35444;
+    transition: all 0.3s ease;
 }
 /* <!-- First Page --> */
-.firstpage{
+.background{
+    background-image: url('./media/crea-tive.svg');
     background-color: #151823;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.upper{
+    padding-top: 15%;
+    display: flex;
+    height: 40%;
+    /* justify-content: center;  */
 }
 .container img{
-    height: 100%;
-    width: 100%;
+    height: 600px;
+    position: relative;
+    right: -25%; /* Adjust this value to control how much of the image is outside */
 }
+.text h2{
+    font-size: 62px;
+    color: #FFFFFF;
+}
+.text h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #7e8399;
+}
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden; /* Ensures no unwanted scrollbars appear */
+}
+.text {
+    padding-left: 160px;
+}
+.after-br {
+    color: #f35444;
+}
+.text a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+}
+.text button{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 25px;
+    background-color: #151823;
+    border-radius: 50px 50px 50px 50px;
+    border: 2px solid #f35444;
+    width: 130px;
+    padding: 10px;
+}
+.text button:hover{
+    background-color: #f35444;
+    transition: all 0.3s ease;
+}
+
 /* <!-- Services --> */
 /* <!-- Pricing Plan --> */
 /* <!-- Clients --> */
