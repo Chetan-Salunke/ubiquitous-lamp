@@ -159,9 +159,123 @@ li{
     background-color: #f35444;
     transition: all 0.3s ease;
 }
-
 /* <!-- Services --> */
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #f0f0f0;
+    height: 800px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1275px;
+    justify-content: space-between;
+}
+.card {
+    height: 350px;
+    padding-top: 20px;
+    /* padding: 20px 15px 20px 15px; */
+    width: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #151823;
+    text-align: center;
+}
+.card img {
+    height: 60px;
+    width: 60px;
+    filter: invert(48%) sepia(88%) saturate(3082%) hue-rotate(336deg) brightness(92%) contrast(104%);
+    /* filter: invert(100%) brightness(1000%); */
+}
+.card-content {
+    padding: 16px;
+}
+.card-content h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #FFFFFF
+}
+.card-content p {
+    margin: 8px 0 0;
+    color: #7e8399;
+}
+.sbtn a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500px;
+}
+.sbtn button{
+    padding: 10px;
+}
+/* <!-- heading --> */
+.theading{
+    padding-top: 70px;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+.theading1{
+    /* padding-bottom: 70px; */
+    background-color: #f0f0f0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
 /* <!-- Pricing Plan --> */
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #f0f0f0;
+    height: 800px;
+}
+.pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1275px;
+    justify-content: space-between;
+}
+.pricing-card {
+    height: 350px;
+    padding-top: 20px;
+    /* padding: 20px 15px 20px 15px; */
+    width: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #151823 ;
+    text-align: center;
+}
+.pricing-content {
+    padding: 16px;
+}
+.pricing-content h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #FFFFFF
+}
+.pricing-content p {
+    margin: 8px 0 0;
+    color: #7e8399;
+}
+.sbtn a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500px;
+}
+.sbtn button{
+    padding: 10px;
+}
 /* <!-- Clients --> */
 /* <!-- Portfolio --> */
 /* <!-- Technologies --> */
@@ -169,11 +283,16 @@ li{
 /* <!-- Footer --> */
 .footer{
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    height: 400px; 
+    height: 480px; 
     background-color: #151823;
 }
+.footerbox{
+    display: flex;
+}
 .box{
+    padding: 60px;
     width: 316px;
     justify-content: space-around;
     align-items: center;
@@ -195,12 +314,15 @@ li{
     align-items: center;
 }
 .serv a{
-    color: #FFFFFF;
     text-decoration: none;
 }
 .serv li{
+    color: #FFFFFF;
     list-style: none;
     padding: 0px;
+}
+.serv li:hover{
+    color: #f35444;
 }
 .serv img{
     padding-right: 10px;
